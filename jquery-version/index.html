@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/todo.css">
+    <script src="js/jquery-2.2.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div todo="adsa">
+            <h3>Todo List</h3>
+            <form todo-input class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="id1">Email address</label>
+                    <input class="form-control" id="id1" name="name" type="text" placeholder="type activity">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" name="color" type="color">
+                </div>
+                <button type="submit" class="btn btn-default">add</button>
+            </form>
+        </div>
+
+        <div todo="adsasda">
+            <h3>Todo List 2</h3>
+            <form todo-input class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="id2">Email address</label>
+                    <input class="form-control" id="id2" name="name" type="text" placeholder="type activity">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" name="color" type="color">
+                </div>
+                <button type="submit" class="btn btn-default">add</button>
+            </form>
+        </div>
+
+        <div todo="asdggsda">
+            <h3>Todo List 3</h3>
+            <form todo-input class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="id3">Email address</label>
+                    <input class="form-control" id="id3" name="name" type="text" placeholder="type activity">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" name="color" type="color">
+                </div>
+                <button type="submit" class="btn btn-default">add</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/todoContainer.js"></script>
+    <script src="js/todo.js"></script>
+    <script>
+        $(document).ready(function () {
+            todoApp.init();
+        });
+    </script>
+</body>
+</html>

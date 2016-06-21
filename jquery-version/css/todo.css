@@ -1,0 +1,12 @@
+﻿.boxclose{
+    float:right;     
+}
+
+.boxclose:before {
+     content: '✖';
+}
+
+input[type="color"]{
+    min-width:44px;
+}
+
